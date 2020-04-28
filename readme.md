@@ -27,7 +27,7 @@
 
     class: search-container
 
-## TODO(TOGETHER): Style the input box and add the seaarch icon
+## TODO(TOGETHER): Style the input box and add the search icon
 
 ## TODO: Create HTML and Style for the stores list container
 
