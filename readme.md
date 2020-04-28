@@ -54,10 +54,6 @@
 
 ## TODO(API, TOGETHER): Retreive Stores data
 
-## TODO(API, TOGETHER): Create a MongoDB Databse in MongoDB Atlas
-
-[Click Here](https://www.mongodb.com/cloud/atlas)
-
 ## TODO(API): Create a `post` API endpoint `/api/stores` 
 
 
@@ -68,6 +64,10 @@
 - You will run into an error here when posting data
 - Use the stores data we retrieved previously
 - Use Postman to post the data
+
+## TODO(API, TOGETHER): Create a MongoDB Databse in MongoDB Atlas
+
+[Click Here](https://www.mongodb.com/cloud/atlas)
 
 ## TODO(API, TOGETHER): Setup Mongoose to connect to MongoDB
 
@@ -119,6 +119,18 @@ This will allow us to delete all the stores in the database
 
 - Create a `searchLocationsNear()` function to loop over all of the stores
 - Create a `createMarker()` function to add marker to the map
+
+## TODO: Create HTML and Style for individual store items in the stores list container
+
+## TODO: Show all stores in the stores list container using the stores retrieved from the API
+
+#### HINTS:
+
+- Create a `getStores()` function to `fetch` stores from API
+- Create a `setStoresList()` function to loop over the stores
+- Use template literals when creating the HTML for stores
+- Replace the HTML in `.stores-list` with the HTML generated
+
 
 
 
