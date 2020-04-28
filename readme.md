@@ -64,6 +64,7 @@
 - You will run into an error here when posting data
 - Use the stores data we retrieved previously
 - Use Postman to post the data
+- `console.log()` the data to test
 
 ## TODO(API, TOGETHER): Create a MongoDB Databse in MongoDB Atlas
 
