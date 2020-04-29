@@ -193,6 +193,8 @@ This service will contain all the logic to get coordinates based on zip code
 - Use ASYNC/AWAIT 
 - Use `googleMapsService` inside `get` API endpoint
 
+## TODO(API, TOGETHER): Add Google Maps API Key to `.env` file
+
 ## TODO: Implement search of stores based on Zip Code
 
 #### HINTS:
@@ -207,6 +209,10 @@ This service will contain all the logic to get coordinates based on zip code
 - Use documentation
 - Clear markers
 - Clear `infoWindow`
+
+## TODO(TOGETHER): Add starter screen when visiting the page for the first time
+
+## TODO(TOGETHER): Add a no stores found message when there are no stores found
 
 
 
