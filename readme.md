@@ -124,6 +124,19 @@ This will allow us to delete all the stores in the database
 - Create a `searchLocationsNear()` function to loop over all of the stores
 - Create a `createMarker()` function to add marker to the map
 
+## TODO: Create a marker info window and display it on the click of a marker
+
+#### HINTS:
+
+- Use the documentation [here](https://developers.google.com/maps/solutions/store-locator/clothing-store-locator)
+- Add an event listener to open info window on the click of a marker
+- Use the `createMarker()` function
+- Have the html of the info window be the following:
+
+    ```"<b>" + name + "</b> <br/>" + address```
+
+## TODO(TOGETHER): Style the info window based on the design
+
 ## TODO: Create HTML and Style for individual store items in the stores list container
 
 ## TODO: Show all stores in the stores list container using the stores retrieved from the API
