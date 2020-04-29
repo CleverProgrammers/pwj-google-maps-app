@@ -154,7 +154,6 @@ This will allow us to delete all the stores in the database
 
 #### HINTS:
 
-- Create a `getStores()` function to `fetch` stores from API
 - Create a `setStoresList()` function to loop over the stores
 - Use template literals when creating the HTML for stores
 - Replace the HTML in `.stores-list` with the HTML generated
