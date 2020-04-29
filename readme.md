@@ -180,7 +180,7 @@ This will allow us to search for stores based on zip code
 #### HINTS:
 
 - Use MongoDB GeoQuery to find the stores near that coordinate
-- Use `distance` of 3218 radians
+- Use `distance` of 3218 meters
 - Test out using Postman
 
 ## TODO(API, TOGETHER): Create a googleMapsService to clean up the `get` api endpoint 
