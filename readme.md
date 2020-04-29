@@ -139,6 +139,17 @@ This will allow us to delete all the stores in the database
 
 ## TODO: Create HTML and Style for individual store items in the stores list container
 
+#### HTML/CSS Structure:
+
+```
+.store-container
+    .store-info-container
+        .store-address
+        .store-phone-number
+    .store-number-container
+        .store-number
+```
+
 ## TODO: Show all stores in the stores list container using the stores retrieved from the API
 
 #### HINTS:
@@ -147,6 +158,42 @@ This will allow us to delete all the stores in the database
 - Create a `setStoresList()` function to loop over the stores
 - Use template literals when creating the HTML for stores
 - Replace the HTML in `.stores-list` with the HTML generated
+
+## TODO: Open info window of a marker on the click of a store in the stores list
+
+#### HINTS:
+
+- Use the documentation [here](https://developers.google.com/maps/solutions/store-locator/clothing-store-locator)
+- Create a `markers` list and add each marker into the array
+- Use `.querySelectorAll()` to get all store elements
+- Loop over every store element and add an event listener to trigger a marker
+
+## TODO(API, TOGETHER): Get the coordinates of a zip code using Google Maps Geocoding API
+
+This will allow us to search for stores based on zip code
+
+#### HINTS:
+
+- Add `zip_code` parameter to `/api/stores` API endpoint
+- Use MongoDB GeoQuery to find the stores near that coordinate
+- Use `distance` of 3218 radians
+- Test out using Postman
+
+## TODO(API, TOGETHER): Create a googleMapsService to clean up the `get` api endpoint 
+
+This service will contain all the logic to get coordinates based on zip code
+
+#### HINTS:
+
+- Use ASYNC/AWAIT 
+- Use `googleMapsService` inside `get` API endpoint
+
+## TODO: Implement search of stores based on Zip Code
+
+#### HINTS:
+
+- Call `getStores()` function on click of `search` icon
+- Get `zip code` data from input
 
 
 
