@@ -200,6 +200,14 @@ This service will contain all the logic to get coordinates based on zip code
 - Call `getStores()` function on click of `search` icon
 - Get `zip code` data from input
 
+## TODO: Clear all locations on every new search
+
+#### HINTS:
+
+- Use documentation
+- Clear markers
+- Clear `infoWindow`
+
 
 
 
