@@ -174,6 +174,11 @@ This will allow us to search for stores based on zip code
 #### HINTS:
 
 - Add `zip_code` parameter to `/api/stores` API endpoint
+
+## TODO(API, TOGETHER): Seach for stores around the zip code using MongoDB
+
+#### HINTS:
+
 - Use MongoDB GeoQuery to find the stores near that coordinate
 - Use `distance` of 3218 radians
 - Test out using Postman
