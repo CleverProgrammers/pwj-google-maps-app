@@ -98,6 +98,9 @@ This will allow us to delete all the stores in the database
 
 - Use the documentation link [here](https://mongoosejs.com/docs/api.html#model_Model.create)
 - Make sure to correctly map the data to MondoDB Schema
+- Save the list of stores in dbStores
+- Use the `.create()` function in mongoose to save the list
+- Test it out using Postman
 - Feel free to use the `delete` api endpoint to reset the database and re-test
 
 ## TODO(API): Create a `get` API Endpoint `api/stores` to get all stores from database
