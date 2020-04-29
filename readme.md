@@ -163,6 +163,7 @@ This will allow us to delete all the stores in the database
 #### HINTS:
 
 - Use the documentation [here](https://developers.google.com/maps/solutions/store-locator/clothing-store-locator)
+- Create a `setOnClickListener()` function
 - Create a `markers` list and add each marker into the array
 - Use `.querySelectorAll()` to get all store elements
 - Loop over every store element and add an event listener to trigger a marker
@@ -198,6 +199,8 @@ This service will contain all the logic to get coordinates based on zip code
 
 - Call `getStores()` function on click of `search` icon
 - Get `zip code` data from input
+
+
 
 
 

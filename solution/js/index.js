@@ -2,7 +2,7 @@ let map;
 let markers = [];
 let infoWindow;
 let locationSelect;
-const API_URL = "http://localhost:3000/api/stores";
+const API_URL = "http://localhost:3001/api/stores";
 
 const onEnter = (e) => {
     if(e.key == "Enter") {
@@ -32,7 +32,7 @@ const setData = (data) => {
     } else {
         setStoresList(data);
         searchLocationsNear(data);
-        setOnHoverListener();
+        setOnClickListener();
     }
 }
 
@@ -58,7 +58,7 @@ const noStoresFound = () => {
     document.querySelector('.stores-list').innerHTML = html;
 }
 
-function setOnHoverListener() {
+function setOnClickListener() {
     var storeElements = document.querySelectorAll('.store-container');
     storeElements.forEach((elem, index)=>{
         elem.addEventListener('mouseover', ()=>{
