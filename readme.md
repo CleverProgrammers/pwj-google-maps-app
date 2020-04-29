@@ -183,7 +183,7 @@ This will allow us to search for stores based on zip code
 - Use `distance` of 3218 meters
 - Test out using Postman
 
-## TODO(API, TOGETHER): Create a googleMapsService to clean up the `get` api endpoint 
+## TODO(API): Create a googleMapsService to clean up the `get` api endpoint 
 
 This service will contain all the logic to get coordinates based on zip code
 
